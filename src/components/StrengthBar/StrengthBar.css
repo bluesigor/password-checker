@@ -1,0 +1,33 @@
+.strength-bar-wrapper {
+    margin-top: 20px;
+}
+
+.strength-bar {
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+}
+
+.strength-bar__item-fail {
+    width: 65px;
+    border-bottom: 5px solid red;
+    border-radius: 8px;
+}
+
+.strength-bar__item-empty {
+    width: 65px;
+    border-bottom: 5px solid grey;
+    border-radius: 8px;
+}
+
+.strength-bar__item-medium {
+    width: 65px;
+    border-bottom: 5px solid rgb(236, 236, 47);
+    border-radius: 8px;
+}
+
+.strength-bar__item-strong {
+    width: 65px;
+    border-bottom: 5px solid rgb(40, 184, 40);
+    border-radius: 8px;
+}
